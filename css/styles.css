@@ -9,7 +9,8 @@
     --second-text-color:rgba(255, 255, 255, 1);
     --third-text-color: rgba(117, 117, 117, 1);
     --fourth-text-color: rgba(33, 150, 243, 1);
-    --fifth-text-color: rgba(255, 255, 255, 60%);
+    --fifth-text-color: rgba(255, 255, 255, 0.6);
+    
 }
 
 
@@ -24,7 +25,7 @@ body{
 }
 /* Logo */
 .logo-header, .logo-footer{
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     text-decoration: none;
     font-weight: bold;
     font-size: 26px;
@@ -98,6 +99,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+cursor: pointer;
 }
 
 /* Наши преимущества на рынке */
@@ -127,7 +129,7 @@ letter-spacing: 0.06em;
 }
 
 /* Чем мы занимаемся */
-.directions-title{
+.section-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
@@ -145,13 +147,6 @@ letter-spacing: 0.06em;
 /* Наша команда */
 .team-section{
     background-color: var(--fourth-background-color);
-}
-
-.team-title{
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 0.11;
-    text-align: center;
 }
 
 .team-member{
