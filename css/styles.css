@@ -4,8 +4,11 @@
     --dark-mode-color: #2E2F42;
     --main-text-color: #434455;
     --main-background-color: #fff;
-    --hover-color: #404BBF;
+    --link-hover-color: #404BBF;
+    --btn-hover-color: #404BBF;
     --hero-text-color: #fff;
+    --portfolio-btn-color:#f4f4fd;
+
 }
 
 /* ========== Base styles ========== */
@@ -25,9 +28,11 @@ body {
     text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
-    color: var(--hover-color);
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--link-hover-color);
 }
 
 .list-item{
@@ -103,7 +108,15 @@ font-size: 16px;
 line-height: 1.5;
 align-items: center;
 letter-spacing: 0.04em;
+
 color: var(--hero-text-color);
+
+cursor: pointer;
+}
+
+.order-btn:hover,
+.order-btn:focus{
+background-color: var(--btn-hover-color);
 }
 
 /* ========== Our preferences ========== */
@@ -120,4 +133,20 @@ color: var(--hero-text-color);
 
 .footer-text{
     color: var(--light-mode-color);
+}
+
+/* ========== Portfolio page ========== */
+/* ==========                ========== */
+
+.portfolio-btn{
+    background-color: var(--portfolio-btn-color);
+    color: var(--primary-brand-color);
+
+    cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    background-color: var(--btn-hover-color);
+    color: #fff;
 }
