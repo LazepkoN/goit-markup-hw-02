@@ -122,6 +122,14 @@ background-color: var(--btn-hover-color);
 /* ========== Our preferences ========== */
 
 /* ========== Employees ========== */
+.employees-section{
+    background-color: var(--light-mode-color);
+}
+
+.team-card{
+    background-color: var(--main-background-color);
+}
+
 .employee-name{
     text-align: center;
 }
