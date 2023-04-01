@@ -161,6 +161,9 @@ background-color: var(--btn-hover-color);
     background-color: var(--portfolio-btn-color);
     color: var(--primary-brand-color);
 
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
@@ -168,4 +171,8 @@ background-color: var(--btn-hover-color);
 .portfolio-btn:focus{
     background-color: var(--btn-hover-color);
     color: #fff;
+}
+
+.portfolio-desc{
+    color: inherit;
 }
