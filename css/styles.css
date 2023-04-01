@@ -35,7 +35,7 @@ body {
     color: var(--link-hover-color);
 }
 
-.list-item{
+.list{
     list-style: none;
 }
 
