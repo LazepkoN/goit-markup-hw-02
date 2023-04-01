@@ -163,6 +163,8 @@ background-color: var(--btn-hover-color);
 
     font-family: inherit;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
@@ -174,5 +176,5 @@ background-color: var(--btn-hover-color);
 }
 
 .portfolio-desc{
-    color: inherit;
+    color: var(--main-text-color);
 }
