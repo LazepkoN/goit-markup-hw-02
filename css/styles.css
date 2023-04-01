@@ -43,6 +43,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
 
@@ -83,8 +84,11 @@ body {
     color: var(--dark-mode-color);
 }
 
-.contacts-link {
+.contacts{
     font-style: normal;
+}
+
+.contacts-link {
     color: inherit;
 }
 
@@ -96,13 +100,14 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
     color: var(--hero-text-color);
 }
 
 .order-btn{
 background-color: var(--primary-brand-color);
-
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -120,7 +125,9 @@ background-color: var(--btn-hover-color);
 }
 
 /* ========== Our preferences ========== */
-
+.prefernces-desc{
+    font-family: inherit;
+}
 /* ========== Employees ========== */
 .employees-section{
     background-color: var(--light-mode-color);
